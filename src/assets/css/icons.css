@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?u98vks');
+  src:  url('../fonts/icomoon.eot?u98vks#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?u98vks') format('truetype'),
+        url('../fonts/icomoon.woff?u98vks') format('woff'),
+        url('../fonts/icomoon.svg?u98vks#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_change_photo:before {
+  content: "\e919";
+}
+.icon-icon_register:before {
+  content: "\e91a";
+}
+.icon-discuss-issue:before {
+  content: "\e900";
+}
+.icon-fb-icon:before {
+  content: "\e901";
+}
+.icon-icon_action_dots:before {
+  content: "\e902";
+}
+.icon-icon_arrow_down:before {
+  content: "\e903";
+}
+.icon-icon_box:before {
+  content: "\e904";
+}
+.icon-icon_children:before {
+  content: "\e905";
+}
+.icon-icon_dashboard:before {
+  content: "\e906";
+}
+.icon-icon_delivered:before {
+  content: "\e907";
+}
+.icon-icon_donations:before {
+  content: "\e908";
+}
+.icon-icon_my_donations:before {
+  content: "\e909";
+}
+.icon-icon_my_orders:before {
+  content: "\e90a";
+}
+.icon-icon_onetime:before {
+  content: "\e90c";
+}
+.icon-icon_recurring:before {
+  content: "\e90d";
+}
+.icon-icon_settings:before {
+  content: "\e90e";
+}
+.icon-icon_shipped:before {
+  content: "\e90f";
+}
+.icon-icon_subscriptions:before {
+  content: "\e911";
+}
+.icon-instagram-with-circle:before {
+  content: "\e912";
+}
+.icon-twitter-icon:before {
+  content: "\e913";
+}
+.icon-youtube:before {
+  content: "\e914";
+}
+.icon-minus:before {
+  content: "\e90b";
+}
+.icon-add:before {
+  content: "\e910";
+}
+.icon-search:before {
+  content: "\e918";
+}
+.icon-external-link:before {
+  content: "\e917";
+}
+.icon-bell-o:before {
+  content: "\e915";
+}
+.icon-bell:before {
+  content: "\e916";
+}

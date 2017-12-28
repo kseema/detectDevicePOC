@@ -1,0 +1,233 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width: 1199px) {
+	.container {
+		width: 1026px;
+		max-width: 1026px;
+		margin:0 auto;
+	}
+	.footer .container {
+		width: 1026px;
+		max-width: 1026px;
+		margin:0 auto;
+	}
+}
+@media (max-width: 1025px) {
+	
+	.top-links {
+		height: 35px;
+	}
+
+	.main-nav .logo-sec li a.active::before {
+		content: "";
+		height: 2px;
+		width: 60px;
+		background: #3CB495;
+		position: absolute;
+		bottom: -24px;
+	    left: 50%;
+	    margin-left: -35px;
+	}
+
+	.main-nav .logo-sec li a { 
+		padding: 0 55px;
+	}
+
+	.sidebar {
+	  	width: 20em;
+	}
+
+	.sidebar .list {
+		font-size: 80%;
+	}
+
+	.sidebar .list a .icon {
+		font-size: 1.2em;
+		margin-right: 5px;
+	}
+
+	.sidebar .list a {
+		padding: 15px;
+	}
+
+	.sidebar .list a .plus, .sidebar .list a .minus {
+		right: 8px;
+	}
+
+	.sidebar .list .inner-list a {
+		padding: 10px 20px;
+	}
+
+	.container {
+		width: 100%;
+		max-width: 100%;
+		margin:0 auto;
+	}
+	.footer .container {
+		width: 100%;
+		max-width: 100%;
+		margin:0 auto;
+	}
+}
+
+@media (max-width: 900px) {
+	.db-margin-l20.db-margin-l20 {
+		margin-left: 0px;
+	}
+	.top-links {
+		height: auto;
+	}
+
+	.main-nav .logo-sec li a {
+		padding: 0 25px;
+	}
+
+	.main-nav .logo-sec li a.active::before {
+		content: "";
+		height: 0px;
+		width: 0px;
+		background: #3CB495;
+		position: absolute;
+		bottom: -28px;
+	    left: 50%;
+	    margin-left: -35px;
+	}
+
+	.myorders-sec .list {
+		display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+	}
+
+	.footer-links {
+		display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+	}
+
+	.main-nav .logo-sec li a {
+	    padding: 0 20px;
+	}
+
+	.main-nav .logo-sec li a.logo {
+		margin-right: 15px;
+	}
+
+	.profile .profile-sec {
+		text-align: center;
+	}
+
+	.profile .profile-sec .heading {
+		margin: 0;
+	}
+
+	.profile .profile-sec .sub-head {
+		margin-bottom: 1.4em;
+	}
+
+	.main .bor-boxshadow.margin-l20 {
+		margin-left: 0px;
+	}
+
+	.rec-subscrib .list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.foot-logo {
+		margin-bottom: 10px;
+    	text-align: center;
+    	margin-right: 30px;
+	}
+
+	.foot-social {
+		padding-right: 20px;
+	}
+
+	.foot-logo .foot-logo-img {
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+
+	.foot-find-awana .text-field {
+		padding: 8px 10px;
+	}
+
+	.login {
+		width: 400px;
+	}
+
+	.login-div {
+		border-right: 0px;
+		border-bottom: 1px solid #F3F3F3;
+	}
+
+	.login-foot {
+		padding: 30px 50px;
+	}
+
+
+	.container {
+		width: 100%;
+		max-width: 100%;
+		margin:0 auto;
+	}
+	.footer .container {
+		width: 100%;
+		max-width: 100%;
+		margin:0 auto;
+	}
+}
+
+@media (max-width: 500px) { 
+	
+	.footer-links,
+	.top-links, 
+	.top-nav, 
+	.main-nav,
+	.myorders-sec .list {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.myorders-sec > .list li:first-child {
+		width: auto;
+	}
+
+	.main-nav .logo-sec li a {
+		padding: 0 5px;
+	}
+
+	.sidebar {
+	    width: 10em;
+	}
+
+	.sidebar .heading {
+		font-size: 22px;
+	}
+
+	.sidebar .list a {
+		padding: 10px 10px 10px 35px;
+	}
+
+	.sidebar .list a .icon {
+		margin-left: -25px;
+	}
+
+	.footer-signup .text-field {
+		font-size: 15px;
+		padding: 8px 12px;
+	}
+
+	.login {
+		width: 100%;
+	}
+
+	.login-div.login-div, 
+	.register-div.register-div {
+		padding: 40px 30px;
+	}
+}

@@ -1,0 +1,25 @@
+/* IE6/7 uses media, */
+@media, { 
+        
+
+} 
+
+/* IE8 uses \0 */
+@media all\0 { 
+        
+
+} 
+
+/* IE9 uses \9 */
+@media all and (monochrome:0) { 
+  
+
+} 
+
+/* IE10 and IE11 both use -ms-high-contrast */
+@media all and (-ms-high-contrast:none)
+ {
+ .myorders-sec .total-text { font-size: 13px; } /* IE10 */
+ *::-ms-backdrop, .myorders-sec .total-text { font-size: 13px; } /* IE11 */
+ }
+

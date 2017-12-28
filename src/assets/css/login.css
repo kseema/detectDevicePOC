@@ -1,0 +1,169 @@
+.login {
+	width: 800px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.login-logo {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.login-foot {
+	background: #F3F3F3;
+	font-family: 'AvenirLTStdRoman';
+	text-align: center;
+	padding: 30px;
+}
+
+.login-foot a {
+	color: #3C3D43;
+	border-bottom: 1px solid #3C3D43;
+}
+
+.login-maindiv {
+	border: 1px solid #F3F3F3;
+}
+
+
+/** Login Div **/
+
+.login-div.login-div,
+.thankyou-div {
+	background: #fff;
+	padding: 45px 60px;
+}
+
+.login-div {
+	border-right: 1px solid #D9D9D9;
+}
+
+.login-div .form-group {
+	margin-bottom: 15px;
+}
+
+.login-div .heading,
+.thankyou-div .heading {
+	font-family: 'AvenirLTStdRoman';
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+
+.login-div .text-field-big {
+	width: 100%;
+}
+
+.login-div .checkbox {
+	font-family: 'AvenirLTStdRoman';
+	font-size: 12px;
+	margin-right: 35px; 
+}
+
+.login-div .forgotLink a{
+	font-family: 'AvenirLTStdRoman';
+	font-size: 12px;
+	color: #636363;
+	border-bottom: 1px solid #636363;
+}
+
+.login-div .btn-block {
+	margin-top: 5px;
+}
+
+.login-div .fp-btn {
+	text-transform: capitalize;
+}
+
+
+/** Register Div **/
+
+.register-div {
+	text-align: center;
+	background: #fff;
+	padding: 35px 58px 51px 58px;
+}
+
+.register-div .icon-icon_register {
+	font-size: 75px;
+    margin-top: 28px;
+    display: block;
+}
+
+.register-div .btn-register {
+	width: 235px;
+	font-size: 12px;
+}
+
+.register-div .para-text {
+	font-family: 'AvenirLTStdRoman';
+	margin: 20px 0;
+}
+.register-div .or-text {
+	font-family: 'AvenirLTStdRoman';
+	margin: 15px 0;
+}
+.register-div .btn-social {
+	width: 235px;
+	font-size: 12px;
+	margin-bottom:10px;
+	color:#fff;
+	border:none;
+	position: relative;
+}
+.register-div .btn-fb{
+	background: #3b5998;
+}
+.register-div .btn-google{
+	background:#df4930;
+}
+.register-div .btn-twitter{
+	background: #55acee;
+}
+.register-div .btn-social span{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+.register-div .btn-fb span{
+	background:url('/assets/img/fb-image.png') 5px 1px no-repeat;
+}
+.register-div .btn-google span{
+	background:url('/assets/img/googleplus-image.png') 5px 1px no-repeat;
+}
+.register-div .btn-twitter span{
+	background:url('/assets/img/twitter-image.png') 5px 1px no-repeat;
+}
+.register-div .change-photo {
+	margin: 60px 0 28px 0;
+}
+
+.register-div .file-upload input[type='file'] {
+	height: 35px;
+}
+
+.register-div .btn .icon-icon_change_photo {
+	font-size: 18px;
+    vertical-align: middle;
+    line-height: 14px;
+}
+
+
+/** ThankYou Div **/
+
+.thankyou-div .thanks-msg {
+	background: #f3f8f1;
+    border: 1px dashed #cfdcd3;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thankyou-div .thanks-msg .icon {
+	font-size: 40px;
+	width: 75px;
+}
