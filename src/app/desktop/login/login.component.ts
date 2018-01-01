@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { GlobalsService } from '../../app.globals';
 import {Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
+import { FormGroup, FormBuilder, Validators, AbstractControl, ValidatorFn, FormArray, FormControl } from '@angular/forms';
+
 
 @Component({
   selector: 'app-login',
@@ -10,11 +12,19 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
   @Output() loginParam=new EventEmitter();
-  @Output() toggleParam=new EventEmitter();
-  constructor(public globals:GlobalsService, private route:Router ) { }
+  @Output() toggleParam = new EventEmitter();
+  formValidation: FormGroup;
+  constructor(public globals: GlobalsService, private route: Router, private fb: FormBuilder ) { }
   ngOnInit() {
-    localStorage.setItem("userLoggedIn","false");
-    console.log("Login Call");
+    this.formValidation = this.fb.group({
+      userName: ['', [Validators.required, Validators.minLength(4), Validators.pattern('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+')]]
+    });
+
+    
+
+  }
+  save() {
+    console.log('Saved: ' + JSON.stringify(this.formValidation.value));
   }
   login(){
     //ajaxcall
